@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.min.js"></script>
+    <script src="javascript/Profile.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+
+<body ng-app="LoginPage" ng-controller="loginSys">
+    <h1>User Profile</h1>
+    <div>
+        <p><strong>Username:</strong> <span>{{studs.studs.username }}</span></p>
+        <p><strong>Email:</strong> <span>{{ studs.studs.email }}</span></p>
+    </div>
+    <div>
+        <button ng-click="logout()">Logout</button>
+    </div>
+
+
+
+</body>
+
+</html>

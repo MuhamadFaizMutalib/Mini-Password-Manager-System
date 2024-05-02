@@ -1,0 +1,4 @@
+CREATE USER 'PassSys'@'localhost' IDENTIFIED BY 'PassSys';
+CREATE DATABASE PassSys;
+GRANT ALL PRIVILEGES ON PassSys.* TO 'PassSys'@'localhost';
+FLUSH PRIVILEGES;

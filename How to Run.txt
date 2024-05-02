@@ -1,0 +1,8 @@
+(Change Directory to folder: "Mini Password Manager")
+cd Mini Password Manager
+
+node server.js
+
+perl mojo-user.pl daemon
+
+Then, copy the localhost address http://127.0.0.1:3000, the result of the "perl mojo-user.pl daemon" command
